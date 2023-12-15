@@ -1,0 +1,64 @@
+{
+  "parent": [
+    {
+      "label": "parent1",
+      "value": "0",
+      "college": [
+        {
+          "label": "college1",
+          "value": "college1"
+        },
+        {
+          "label": "college2",
+          "value": "college2"
+        },
+        {
+          "label": "college3",
+          "value": "college3"
+        }
+      ]
+    },
+    {
+      "label": "parent2",
+      "value": "1",
+      "college": [
+        {
+          "label": "coll",
+          "value": "col1"
+        },
+        {
+          "label": "coll2",
+          "value": "coll2"
+        },
+        {
+          "label": "coll3",
+          "value": "coll3"
+        }
+      ]
+    }
+  ],
+  "ques1": [
+    {
+      "label": "who is the prime minister of india",
+      "value": 0,
+      "ans": "Narender"
+    },
+    {
+      "label": "who is the prime minister of England",
+      "value": 1,
+      "ans": "Devil"
+    }
+  ],
+  "ques2": [
+    {
+      "label": "who is the foreign minister of india",
+      "value": 0,
+      "ans": "Narender"
+    },
+    {
+      "label": "who is the foreign minister of England",
+      "value": 1,
+      "ans": "Devil"
+    }
+  ]
+}

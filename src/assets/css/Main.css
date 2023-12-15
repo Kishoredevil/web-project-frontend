@@ -1,0 +1,222 @@
+body{
+    display: grid;
+    height:100vh;
+    align-items:center;
+    background-color:#f0f2f5;
+}
+.logger{
+    display: grid;
+    justify-content: center;
+
+}
+.formu{
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0 0;
+    padding: 0px 28px;
+    width: 370px;
+}
+.logger img{
+    width:370px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 0px 10px ;
+}
+.logger .form-control{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: none;
+}
+.formu .form-control::placeholder{
+    font-size: 17px;
+    font-weight: 400;
+    color:rgba(128, 128, 128, 0.671);
+}
+.logger .form-control:focus{
+    box-shadow: none;
+}
+.cap{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
+.los{
+    overflow: hidden;
+    transform: scale(1.03,0.72);
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.formu .logi{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin:10px 0 10px 0;
+}
+.formu span{
+    background-color: black;
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+
+.formu .form-control:user-invalid:hover~span{
+    display: block;
+    position:fixed;
+    z-index: 1;
+}
+.formu .form-control:user-invalid{
+    border:2px solid red;
+}
+.formu .form-control:focus:user-valid{
+    border:2px solid green;
+}
+.formu .cna{
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+#cna1{
+    padding: 10px 10px;
+    border: none;
+    background-color: rgba(0, 128, 0, 0.801);
+    font-weight: bold;
+    cursor: pointer;
+}
+#cna1:hover{
+    background-color: green;
+}
+#cna1:active{
+    background-color: rgb(89, 221, 89);
+} 
+.formu .div{
+    align-items: center;
+    border-bottom: 1px solid gray;
+    display: flex;
+    margin: 10px 0 ;
+    text-align: center;
+}
+.formu .forg1{
+    display: grid;
+    justify-content: center;
+}
+.formu .forg{
+    color: blue;
+    width: 130px;
+}
+.formu .forg:hover{
+    color:black;
+}
+.ico{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+}
+.eyer{
+    color: gray;
+    margin: 0 10px 2px 0;
+    cursor: pointer;
+    position: fixed;
+}
+
+
+@media only screen and (min-width: 1025px){
+    .main .logger{
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin:0 0 0 0;
+    }
+    .logger img{
+        width:600px;
+        height: 130px;
+        border-radius:10px;
+    }
+    /* .formu{
+        text-align: center;
+        background-color: black;
+        width:270px;
+        max-width: unset;
+        padding: 20px 20px ;
+        border-radius: 10px;
+        margin:0px 0 0 0;
+    }
+    
+    .logger .ox{
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+        padding:10px 0;
+        height:30px;
+        margin: 10px 0px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+    .formu button{
+        border: 1px solid gray;
+        width: 100%;
+        padding: 10px 0;
+        background-color:darkorange;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 14px;
+        cursor: pointer;
+        margin:10px 0 10px 0;
+    }
+    .formu span{
+        width:15vw;
+        background-color: black;
+        font-size: 12px;
+        padding: 3px;
+        color: red;
+        display: none;
+    }
+    .formu .ox:invalid[show=true]:hover~span{
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        z-index: 1;
+    }
+    .formu type:invalid[show=true]{
+        border:5px solid red;
+    }
+    .formu .ox:focus{
+        border:5px solid green;
+    }
+    .formu .cna{
+        width:100%;
+        padding: 10px 10px ;
+        background-color:whitesmoke;
+        color: black;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 14px;
+        cursor: pointer;
+    }
+     .formu p{
+        margin: 20px 0 10px 0;
+    } 
+    .formu .div{
+        align-items: center;
+        border-bottom: 1px solid #dadde1;
+        display: flex;
+        margin: 10px 16px 20px 16px;
+        text-align: center;
+    }
+    .formu .forg{
+        color:white;
+        display: contents;
+        margin: 10px 0 0 0;
+    }
+    .formu .forg:hover{
+        color:blueviolet;
+    } */ 
+    
+}

@@ -1,0 +1,26 @@
+ .forms .form-control{
+     padding-top: 8px;
+     padding-bottom: 8px;
+ }
+ 
+ .forms .form-control:focus{
+     box-shadow: none;
+ }
+ .forms span{
+     background-color: black;
+     font-size: 12px;
+     padding: 3px;
+     color: red;
+     display: none;
+ }
+ .forms .form-control:user-invalid:hover~span{
+     display: block;
+     position: absolute;
+     z-index: 1;
+ }
+ .forms .form-control:user-invalid{
+     border:2px solid red;
+ }
+ .forms .form-control:focus:user-valid{
+     border:2px solid green;
+ }

@@ -1,0 +1,27 @@
+/* .App-header{
+  display:flex;
+  background-color: rgb(36, 60, 124);
+}
+.App-header .nut{
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+.App-header ul{
+  padding: 0 5px 0 0;
+  margin: 2px 0 2px 0;
+}
+.App-header button{
+  border-radius: 10px;
+  padding: 15px;
+}
+.App-header img{  
+  width:200px;
+  border-radius: 10px;
+}
+.App-header .nut button{
+  cursor: pointer;
+}
+.App-header .nut button:hover{
+  color: red;
+} */

@@ -1,0 +1,207 @@
+.modal-dialog{
+   padding: 0 20px;
+}
+.row{
+    margin: 0 0 20px 0;
+}
+.ico1{
+    display: flex;
+    justify-content:right;
+    align-items:center;
+}
+.eyer1{
+    color: gray;
+    margin: 0 10px 1px 0;
+    cursor: pointer;
+    position: absolute;
+}
+  
+.forum{
+    text-align: center;
+}
+.forum .form-control{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.forum .form-control:focus{
+    box-shadow: none;
+}
+.forum span{
+    background-color: black;
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+.forum .form-control:user-invalid:hover~span{
+    display: block;
+    position:fixed;
+    z-index: 1;
+}
+.forum .form-control:user-invalid{
+    border:2px solid red;
+}
+.forum .form-control:focus:user-valid{
+    border:2px solid green;
+}
+
+.forum .ic2 .ox[focused=false]:hover~span{
+    display: block;
+    position:fixed;
+    z-index: 1;
+}
+.forum .ic2 .ox[focused=false]{
+    border:2px solid red;
+}
+.forum .ic2 .ox:focus[focused=true]{
+    border:2px solid green;
+}
+#sig{
+    background: none;
+    background-color: rgba(0, 128, 0, 0.801);
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    padding: 0 40px;
+    margin: 10px 0 5px 0;
+}
+#sig:hover{
+    background-color: green;
+}
+#sig:active{
+    background-color: rgb(89, 221, 89);
+} 
+.cape{
+    display: grid;
+    width: 100%;
+    justify-content: center;    
+}
+.lost{
+    overflow: hidden;
+    transform: scale(1.03,0.72);
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.load{
+    justify-content: center;
+    text-align: center;
+    color:green;
+    background-color: rgb(0, 0, 0);
+    padding: 20px 0px;
+    border-radius: 20px;
+    margin: 0px 60px ;
+}
+.sec{
+    background-color: white;
+}
+
+.load img{
+    width:90px;
+    height: 80px;
+}
+.load a button{
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color:white;
+    border: 2px solid gray;
+    color:black;
+}
+.load a button:hover{
+    color: white;
+    background-color: black;
+}
+.lo{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.cutter{
+    float: right;
+}
+.cutter:active{
+    box-shadow: none;
+}
+
+@media only screen and (min-width: 1025px){
+    /* .main {
+        display: grid;
+        align-items:center;
+        justify-content: center;
+    }
+    .inter{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        right: 0;
+        left:0;
+        top:0;
+        bottom: 0;
+    }
+    .ford{
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+    .forum{
+        width:33vw;
+        border-radius: 10px;
+    }
+    #sig{
+        width: 70%;
+        height: 50px;
+        border: none;
+        background-color: rebeccapurple;
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .erro{
+        color:red;
+        text-align: center;
+    }
+    .load{
+        display:block;
+        color:green;
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 10px 40px;
+        margin: 0px 0 0 0;
+        border-radius: 20px;
+    }
+    .load a button{
+        cursor: pointer;
+        margin: 0px 2px 0 0px;
+        width: 40%;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+    }
+    .load a button:hover{
+        color: green;
+    }
+    .load a{
+        margin: 0 5px 0 7px;
+    }
+    .load img{
+        width:90px;
+        height: 80px;
+        padding:  0 60px;
+        margin: -15px 0 0px 0;
+    }
+    .lo{
+        display: inline;
+    } */
+}
